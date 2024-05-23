@@ -4,9 +4,9 @@ h1 {
     text-underline : 2px;
 }
 
-.jpg
+
         body {
-            background-image: url("t7.jpg");
+            background-image: url("image/t7.jpg");
             background-size: cover;
             background-repeat: no-repeat;
         }
