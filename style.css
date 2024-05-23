@@ -4,9 +4,9 @@ h1 {
     text-underline : 2px;
 }
 
-
+.jpg
         body {
-            background-image: url("Screenshot 2024-05-20 184521.png");
+            background-image: url("42_n.jpg");
             background-size: cover;
             background-repeat: no-repeat;
         }
