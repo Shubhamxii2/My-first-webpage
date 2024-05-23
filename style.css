@@ -1,0 +1,12 @@
+h1 {
+    color : rgb(216, 255, 75);
+    text-shadow: rgb(251, 255, 0);
+    text-underline : 2px;
+}
+
+
+        body {
+            background-image: url("image/t7.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
