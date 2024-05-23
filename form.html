@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title> Form Page</title>
+    </head>
+    <body>
+        <table border="1px" align="center" width="60%" cellpadding="10px" cellmargin="50px,50px,50px,50px">
+            <th colspan="2"><h1><u> Signup Form</u></h1></th>
+            <tr>
+                <td>
+                    <label>Name</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter your Name"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="Enter your Password"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Phone</label>
+                </td>
+                <td>
+                    <input type="number" placeholder="Your Number ?" width="100px" min="1000000000" max="9999999999"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender</label><br>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="Male">
+                    <label  for="Male">Male</label><input type="radio" name="gender" id="Female"><label  for="Female">Female</label><br><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Age</label><br>
+                </td>
+                <td>
+                    <input type="number" placeholder="Age ?"  min="5" max="75"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Language Known</label>
+                </td>
+                <td>
+                    <input type="checkbox" ><label>C</label>
+                    <input type="checkbox" ><label>C++</label> 
+                    <input type="checkbox" ><label>Java</label> 
+                    <input type="checkbox" ><label>Python</label> 
+                    <input type="checkbox" ><label>HTML</label> 
+                    <input type="checkbox" ><label>CSS</label> 
+                    <input type="checkbox" ><label>JS</label>
+                    <input type="checkbox" ><label>PHP</label>
+                    <input type="checkbox" ><label>Go</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Country</label>
+                </td>
+                <td>
+                    <input list="country">
+                    <datalist id="country">
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>Japan</option>
+                        <option>England</option>
+                        <option>France</option>
+                        <option>Germany</option>
+                        <option>China</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr><td colspan="2">
+                <form margin="100px">
+                    
+                    <br><br>
+                    <button value="submit"><a href="fform.html">Submit</a></button>
+                    <br>
+                    <br>
+                    
+                    <input type="reset">
+                </form>
+            </td></tr>
+        </table>
+
+
+
+
+    </body>
+</html>
